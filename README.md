@@ -137,3 +137,106 @@ https://onlinegdb.com/WDgTexGk_
 ✔ functions
 ✔ classes (OOP)
 Just tell me: Next topic?
+
+📘 TOPIC 2: VARIABLES in C++
+✅ What is a Variable?
+
+A variable is a container used to store a value.
+
+Think of it like:
+
+A box with a name
+
+Inside it, you put a value
+
+You can change the value anytime
+
+Example in real life:
+A bottle labelled "Water" → the label = variable name, water = value.
+
+🔹 Syntax of a Variable
+data_type variable_name = value;
+
+
+Example:
+
+int age = 25;
+
+
+Meaning:
+
+int → the type of data
+
+age → name of the variable
+
+25 → value stored
+
+🧠 Why do we need variables?
+
+Because programs need to store information:
+
+age of a person
+
+price of a product
+
+marks in a test
+
+results of a calculation
+
+Without variables, a program cannot remember anything.
+
+⭐ Most Important Data Types
+
+(You need to memorise these)
+
+Data Type	Meaning	Example
+int	integer (whole numbers)	10, 0, -55
+float	decimal numbers (6 digits precision)	3.14, 7.5
+double	larger decimal numbers	3.14159265
+char	single character	'A', 'z', '2'
+string	text (word or sentence)	"Shivendra"
+bool	true or false	true / false
+🟦 Examples of Variables (simple code)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 25;
+    float price = 99.99;
+    char grade = 'A';
+    string name = "Shivendra";
+    bool isStudent = true;
+
+    cout << age << "\n";
+    cout << price << "\n";
+    cout << grade << "\n";
+    cout << name << "\n";
+    cout << isStudent << "\n";
+
+    return 0;
+}
+
+📘 Notes (You can copy these)
+Variable: A container to store data.
+
+Syntax: data_type variable_name = value;
+
+Data types:
+int → whole numbers
+float → decimal numbers (small precision)
+double → decimal numbers (high precision)
+char → single character inside ' '
+string → text inside " "
+bool → true or false
+
+cout << variable; → prints the value stored inside variable
+
+🎯 Ready for next topic?
+
+Options:
+
+1️⃣ Input from user (cin)
+2️⃣ Operators ( + - * / % )
+3️⃣ Strings in detail
+4️⃣ Conditions (if-else)
+5️⃣ Loops
