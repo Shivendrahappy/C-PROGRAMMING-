@@ -123,6 +123,10 @@ cout << "text\n"; → prints text on screen, \n creates a new line
 
 return 0; → tells OS that program ran successfully
 
+https://onlinegdb.com/WDgTexGk_
+
+
+
 
 🔥 If you want, we can move to:
 ✔ variables
